@@ -23,7 +23,7 @@ Install Python as per the instructions in this video: https://www.youtube.com/wa
 Follow the instructions in this video to configure the script to run at intervals of your choosing: https://www.youtube.com/watch?v=n2Cr_YRQk7o . Voila!
 
 # Troubleshooting
-Error: Unable to determine loading status /n
+Error: Unable to determine loading status \n
 Fix: Ensure that you are running the latest versions of selenium webdriver and Google Chrome
 
 Error: Recaptcha failed
