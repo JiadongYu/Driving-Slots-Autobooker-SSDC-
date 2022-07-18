@@ -1,5 +1,3 @@
-
-
 # Import the necessary libraries
 import time
 from selenium import webdriver
@@ -11,12 +9,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from twilio.rest import Client
 
 # Configure twilio
-account_sid = 'AC719bfd577b35856261884872a9db39f3'
-auth_token = '3d41284f58b1e54fa7c5197abe4fee92'
+account_sid = 'TO BE REPLACED'
+auth_token = 'TO BE REPLACED'
 
 # Set SSDC login details
-myUserName = 827544
-myPassword = "Superman333!"
+myUserName = TO BE REPLACED
+myPassword = "TO BE REPLACED"
 
 # Track whether user has logged in
 loggedIn = False
@@ -25,6 +23,7 @@ loggedIn = False
 slotsAvailable = True
 
 # Create a driver for google chrome
+# Replace with your own file path
 s = Service("C:\Program Files (x86)\chromedriver.exe")
 
 # Log in and handle recaptcha failures
@@ -126,7 +125,7 @@ try:
                 body="🚗 A practical lesson slot has been reserved for you!"
                      " Please make payment in the next 10 minutes!",
                 from_='+15672323139',
-                to='+6591593869'
+                to='+65ADD YOUR OWN NUMBER'
             )
             print("Booking has been acknowledged")
 
