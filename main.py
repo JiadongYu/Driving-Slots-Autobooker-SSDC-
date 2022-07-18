@@ -24,7 +24,7 @@ slotsAvailable = True
 
 # Create a driver for google chrome
 # Replace with your own file path
-s = Service("C:\Program Files (x86)\chromedriver.exe")
+s = Service("ADD YOUR OWN FILE PATH TO SELENIUM DRIVER")
 
 # Log in and handle recaptcha failures
 while not loggedIn:
