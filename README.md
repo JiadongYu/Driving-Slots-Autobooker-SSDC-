@@ -25,7 +25,7 @@ Follow the instructions in this video to configure the script to run at interval
 # Troubleshooting
 Error: Unable to determine loading status
 
-Fix: Ensure that you are running the latest versions of selenium webdriver and Google Chrome
+Fix: Ensure that you are running the latest versions of selenium webdriver and Google Chrome / Delete and reinstall the Selenium Driver
 
 Error: Recaptcha failed
 
