@@ -31,3 +31,6 @@ Error: Recaptcha failed
 
 Fix: Pause the running of the script in windows task scheduler for 24 hours as the SSDC site suspects that you are a bot and will block further login attempts for around 24 hours.
 
+Error: Maximum Bookings Hit
+
+Fix: SSDC permits up to 8 practical bookings per month. Wait until next month to book more slots.
